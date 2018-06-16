@@ -1,0 +1,49 @@
+The indentation is purely cosmetic, the program doesn't care about that.
+The names of the colors though are not. There can't be any non-color lines
+in between colors. So
+
+color2 #FFFFFF
+foo
+color3 #FFFFFF
+
+is invalid and the program will stop.
+
+test
+    foreground #FFFFFF
+    background #FFFFFF
+    color0 #FFFFFF
+    color1 #FFFFFF
+    color2 #FFFFFF
+    color3 #FFFFFF
+    color4 #FFFFFF
+    color5 #FFFFFF
+    color6 #FFFFFF
+    color7 #FFFFFF
+    color8 #FFFFFF
+    color9 #FFFFFF
+    color10 #FFFFFF
+    color11 #FFFFFF
+    color12 #FFFFFF
+    color13 #FFFFFF
+    color14 #FFFFFF
+    color15 #FFFFFF
+
+test2
+    foreground #000000
+    background #000000
+    color0 #000000
+    color1 #000000
+    color2 #000000
+    color3 #000000
+    color4 #000000
+    color5 #000000
+    color6 #000000
+    color7 #000000
+    color8 #000000
+    color9 #000000
+    color10 #000000
+    color11 #000000
+    color12 #000000
+    color13 #000000
+    color14 #000000
+    color15 #000000
